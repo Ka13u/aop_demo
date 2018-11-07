@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b810e2b2-3fe5-4413-8be6-7a7ddecd2ab8" name="Default" comment="dev">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/org/aop/dao/IProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/org/aop/dao/IProductDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/org/aop/datalog/DatalogAspect.java" afterPath="$PROJECT_DIR$/src/main/java/com/org/aop/datalog/DatalogAspect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/org/aop/util/ConvertUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/org/aop/util/ConvertUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/org/aop/DatalogApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/org/aop/DatalogApplicationTests.java" />
-    </list>
+    <list default="true" id="b810e2b2-3fe5-4413-8be6-7a7ddecd2ab8" name="Default" comment="" />
     <list id="5af5290e-7e73-43c3-920a-8ba2ad2e7ad3" name="env" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="aop_demo.iws" />
@@ -18,7 +11,6 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/org/aop/dao/IProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="34" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,10 +43,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/org/aop/util/ConvertUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2679#2691#0" expanded="true" />
+                <element signature="e#2672#2684#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +65,8 @@
       <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4906542">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.36842105">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -83,8 +75,8 @@
       <file leaf-file-name="DatalogAspect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/org/aop/datalog/DatalogAspect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.483871">
-              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+            <state vertical-scroll-proportion="-6.129032">
+              <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,7 +128,6 @@
               <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
                 <element signature="e#1136#1137#0" expanded="true" />
               </folding>
             </state>
@@ -1036,8 +1027,15 @@
       <updated>1541502261603</updated>
       <workItem from="1541502266578" duration="1375000" />
       <workItem from="1541503653323" duration="689000" />
-      <workItem from="1541504352046" duration="10563000" />
+      <workItem from="1541504352046" duration="10810000" />
     </task>
+    <task id="LOCAL-00001" summary="dev">
+      <created>1541558122988</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541558122988</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1073,7 +1071,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12627000" />
+    <option name="totallyTimeSpent" value="12874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1085,7 +1083,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5030257" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5292096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4072165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48453608" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.4969743" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1338,7 +1336,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/org/aop/dao/IProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="34" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1348,10 +1346,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/org/aop/util/ConvertUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2679#2691#0" expanded="true" />
+            <element signature="e#2672#2684#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1397,8 +1395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/org/aop/datalog/DatalogAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.483871">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        <state vertical-scroll-proportion="-6.129032">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1411,7 +1409,6 @@
           <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
             <element signature="e#1136#1137#0" expanded="true" />
           </folding>
         </state>
@@ -1427,8 +1424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4906542">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.36842105">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>
