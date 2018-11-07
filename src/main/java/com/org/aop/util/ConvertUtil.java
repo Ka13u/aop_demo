@@ -29,7 +29,7 @@ public class ConvertUtil {
 
     public static Object getObjectById(Object target,Object id) throws NoSuchMethodException,
             InvocationTargetException, IllegalAccessException {
-        Method method = target.getClass().getDeclaredMethod("findById",Long.class);
+        Method method = target.getClass().getDeclaredMethod("findProductById",Long.class);
         Object oldObject = method.invoke(target,id);
         return oldObject;
     }
