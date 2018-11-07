@@ -14,6 +14,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -26,12 +27,12 @@ public class DatalogAspect {
     @Autowired
     IActionDao actionDao;
 
-    @Pointcut("execution(public * com.imooc.aop.dao.*.save*(..))")
+    @Pointcut("execution(public * com.org.aop.dao.*.save*(..))")
     public void save(){
 
     }
 
-    @Pointcut("execution(public * com.imooc.aop.dao.*.delete*(..))")
+    @Pointcut("execution(public * com.org.aop.dao.*.delete*(..))")
     public void delete(){
 
     }
@@ -75,7 +76,7 @@ public class DatalogAspect {
                 if(id == null){
                     actionType = ActionType.INSERT;
                     List<ChangeItem> changeItems = ConvertUtil.getInsertChangeItems(obj);
-                    action.getChangeItems().addAll(changeItems);
+                    action.setChangeItems(changeItems);
                     action.setObjectClass(obj.getClass().getName());
                 }else{
                     actionType = ActionType.UPDATE;
@@ -84,12 +85,14 @@ public class DatalogAspect {
                     action.setObjectClass(oldObj.getClass().getName());
                 }
 
-            }else if("delete".equals(method)){
+            }else if("deleteById".equals(method)){
                 id = Long.valueOf(pjp.getArgs()[0].toString());
                 actionType = ActionType.DELETE;
                 oldObj = ConvertUtil.getObjectById(pjp.getTarget(),id);
                 ChangeItem changeItem = ConvertUtil.getDeleteChangeItem(oldObj);
-                action.getChangeItems().add(changeItem);
+                List<ChangeItem> changeItems = new ArrayList<>();
+                changeItems.add(changeItem);
+                action.setChangeItems(changeItems);
                 action.setObjectId(Long.valueOf(pjp.getArgs()[0].toString()));
                 action.setObjectClass(oldObj.getClass().getName());
             }
@@ -106,7 +109,7 @@ public class DatalogAspect {
             }else if(ActionType.UPDATE == actionType){
                 Object newObj = ConvertUtil.getObjectById(pjp.getTarget(),id);
                 List<ChangeItem> changeItems = ConvertUtil.getChangeItems(oldObj,newObj);
-                action.getChangeItems().addAll(changeItems);
+                action.setChangeItems(changeItems);
             }
 
             action.setOperator("admin"); //dynamic get from threadlocal/session
