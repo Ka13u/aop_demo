@@ -32,7 +32,7 @@ public class DatalogApplicationTests {
 
 	@Test
 	public void testUpdate(){
-		Product product = productDao.getOne(6l);
+		Product product = productDao.getOne(1L);
 		product.setName("test-update");
 		product.setBuyPrice(2300);
 		product.setOnlineTime(new Date());
@@ -41,7 +41,7 @@ public class DatalogApplicationTests {
 
 	@Test
 	public void testDelete(){
-		productDao.deleteById(6L);
+		productDao.deleteById(1L);
 	}
 
 }
